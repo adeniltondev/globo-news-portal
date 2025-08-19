@@ -2,14 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Portal de Notícias Design System - Inspirado no G1 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+    
+    /* G1 News Colors */
+    --news-red: 0 79% 51%;
+    --news-red-foreground: 0 0% 98%;
+    --news-blue: 214 79% 51%;
+    --news-blue-foreground: 0 0% 98%;
+    --news-green: 142 71% 45%;
+    --news-green-foreground: 0 0% 98%;
+    --news-orange: 25 95% 53%;
+    --news-orange-foreground: 0 0% 98%;
+    
+    /* Category Colors */
+    --category-politica: 0 73% 41%;
+    --category-economia: 142 71% 45%;
+    --category-esportes: 214 79% 51%;
+    --category-tecnologia: 258 84% 55%;
+    --category-saude: 326 73% 57%;
+    --category-mundo: 25 95% 53%;
+    
+    /* Layout */
+    --header-height: 4rem;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;

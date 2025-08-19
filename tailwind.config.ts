@@ -61,6 +61,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				news: {
+					red: 'hsl(var(--news-red))',
+					'red-foreground': 'hsl(var(--news-red-foreground))',
+					blue: 'hsl(var(--news-blue))',
+					'blue-foreground': 'hsl(var(--news-blue-foreground))',
+					green: 'hsl(var(--news-green))',
+					'green-foreground': 'hsl(var(--news-green-foreground))',
+					orange: 'hsl(var(--news-orange))',
+					'orange-foreground': 'hsl(var(--news-orange-foreground))'
+				},
+				category: {
+					politica: 'hsl(var(--category-politica))',
+					economia: 'hsl(var(--category-economia))',
+					esportes: 'hsl(var(--category-esportes))',
+					tecnologia: 'hsl(var(--category-tecnologia))',
+					saude: 'hsl(var(--category-saude))',
+					mundo: 'hsl(var(--category-mundo))'
 				}
 			},
 			borderRadius: {
